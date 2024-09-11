@@ -21,13 +21,13 @@
   // D
   // E
   // F
-  // G
+  // {
   {
-    "name": "Google Analytics",
-    "description": "A powerful web analytics service by Google that tracks and reports website traffic, user behavior, and conversions.",
-    "url": "https://analytics.google.com/",
-    "tags": ["analytics", "web", "tracking"]
-  },
+  "name": "Wordware",
+"description": "Wordware is an AI toolkit that helps cross-functional teams build reliable, high-quality agents through rapid iteration. It combines the best aspects of software with the power of natural language, eliminating the constraints of traditional no-code tools and empowering every team member to iterate independently.",
+"url": "https://www.wordware.ai/",
+"tags": ["Artificial Intelligence", "Natural Language Programming", "Rapid Iteration", "Cross-functional Collaboration"]
+},
   // H
   // I
   // J
