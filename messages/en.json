@@ -1,71 +1,70 @@
 {
   "home": {
-    "meta_title": "DevToolset: Open-Source Database-free Developer Tools Navigator",
-    "meta_description": "Find Every Essential Developer Tools You Need For Your Development Journey",
-    "h2": "Open-Source & Database-Free Developer Tools Navigator",
-    "description": "Find Every Essential Developer Tools You Need for Your Development Journey"
+    "meta_title": "OKp AI: There is An AI For That - Discover The Newest And Best AI Tools",
+    "meta_description": "The largest database of 1,444 AIs available for over 1,268 tasks. Use our smart AI search to find the best and latest AI tools for any use case.",
+    "h2": "Discover The Newest And Best AI Tools",
+    "description": "Find the perfect AI tool for any task with our comprehensive database"
   },
   "category": {
-    "meta_title": "Category",
-    "meta_description": "Find Every Essential Developer Tools You Need For Your Development Journey",
+    "meta_title": "AI Categories - OKp AI",
+    "meta_description": "Explore our extensive categories of AI tools for various tasks and industries",
     "homeBtn": "Home",
-    "categoryBtn": "Category",
-    "h1": "Develop Tools Category",
-    "h2": "Find Every Developer Tools You Need Here",
-    "h2description": "All developer tools are sorted alphabetically"
+    "categoryBtn": "Categories",
+    "h1": "AI Tool Categories",
+    "h2": "Find The Perfect AI For Your Needs",
+    "h2description": "All AI tools are sorted by category for easy navigation"
   },
   "article": {
-    "meta_title": "Article",
-    "meta_description": "Read our latest articles on newest developer tools and best practices.",
-    "h1": "Articles",
-    "h2": "Read More About DevToolset",
+    "meta_title": "AI Insights - OKp AI",
+    "meta_description": "Read our latest articles on cutting-edge AI tools and best practices",
+    "h1": "AI Insights",
+    "h2": "Stay Informed About The Latest In AI",
     "homeBtn": "Home",
-    "articleBtn": "Article",
+    "articleBtn": "Articles",
     "backToArticles": "Back to articles"
   },
   "changelog": {
-    "meta_title": "Changelog",
-    "meta_description": "Stay up to date with the latest updates in DevToolset.net",
-    "h1": "Changelog",
-    "h2": "Stay up to date with the latest updates in DevToolset.net",
+    "meta_title": "AI Tool Updates - OKp AI",
+    "meta_description": "Stay up to date with the latest additions and updates to our AI tool database",
+    "h1": "AI Tool Updates",
+    "h2": "Track The Latest Changes In Our AI Database",
     "homeBtn": "Home",
-    "changelogBtn": "Changelog"
+    "changelogBtn": "Updates"
   },
   "tools": {
-    "meta_description": "Find Every Essential Developer Tools You Need For Your Development Journey",
-    "h2_1": "All developer tools related to",
+    "meta_description": "Discover the best AI tools for your specific needs from our extensive database",
+    "h2_1": "All AI tools related to",
     "h2_2": "",
     "homeBtn": "Home"
   },
   "search": {
-    "input_placeholder": "Search tools by name / tags...",
-    "heading": "Suggestions",
+    "input_placeholder": "Search AI tools by name, task, or industry...",
+    "heading": "Suggested AI Tools",
     "more": "More",
-    "button": "Search"
+    "button": "Find AI"
   },
   "navigation": {
     "homeBtn": "Home",
-    "categoryBtn": "Category",
+    "categoryBtn": "Categories",
     "moreCategoryBtn": "More",
-    "moreCategoryDescription": "More Categories",
-    "articleBtn": "Article",
-    "articleDescription": "Open-Source Database-free Developer Tools Navigator",
-    "article1Title": "Adding New Developer Tools to DevToolset",
-    "article2Title": "Deploy your own DevToolset",
+    "moreCategoryDescription": "More AI Categories",
+    "articleBtn": "Articles",
+    "articleDescription": "Insights on the Latest AI Tools and Trends",
+    "article1Title": "How to Choose the Right AI Tool for Your Task",
+    "article2Title": "Top 10 AI Tools for Productivity in 2023",
     "moreArticleBtn": "More",
-    "moreArticleDescription": "More articles",
-    "changelogBtn": "Changelog",
-    "submitToolBtn": "Submit Tool"
+    "moreArticleDescription": "More AI articles",
+    "changelogBtn": "Updates",
+    "submitToolBtn": "Submit AI Tool"
   },
   "footer": {
-    "description": "OpenSource & Database-free Developer Tools Navigator",
-    "builtWith": "Built with",
-    "quickLinks": "Quick Links",
+    "description": "Discover the Newest and Best AI Tools - Comprehensive Database of 1,444 AIs for 1,268+ Tasks",
+    "builtWith": "Powered by AI and Built with AI",
     "home": "Home",
-    "category": "Category",
-    "article": "Article",
-    "changelog": "Changelog",
-    "privacy": "Privacy",
+    "category": "Categories",
+    "article": "Articles",
+    "changelog": "Updates",
+    "privacy": "Privacy Policy",
     "termsOfService": "Terms of Service",
     "legal": "Legal",
     "connect": "Connect",
@@ -74,10 +73,10 @@
   },
   "toolsList": {
     "more": "More",
-    "tools": "tools"
+    "tools": "AI tools"
   },
   "articleList": {
-    "h2": "Articles",
-    "moreArticles": "More articles"
+    "h2": "AI Articles",
+    "moreArticles": "More AI articles"
   }
 }
