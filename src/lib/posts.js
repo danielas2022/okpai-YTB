@@ -39,27 +39,29 @@ export function getSortedPostsData() {
 }
 
 export async function getPostData(slug) {
-  const fullPath = path.join(postsDirectory, `${slug}.md`);
-  const fileContents = fs.readFileSync(fullPath, 'utf8');
+  try {
+    const fullPath = path.join(postsDirectory, `${slug}.md`);
+    const fileContents = await fs.promises.readFile(fullPath, 'utf8');
 
-  // Use gray-matter to parse the post metadata section
-  const matterResult = matter(fileContents);
+    // 使用 gray-matter 解析文章元数据部分
+    const matterResult = matter(fileContents);
 
-  // Use remark to convert markdown into HTML string
-  const processedContent = await remark()
-    .use(html)
-    .process(matterResult.content);
-  const contentHtml = processedContent.toString();
+    // 使用 remark 将 markdown 转换为 HTML 字符串
+    const processedContent = await remark()
+      .use(html)
+      .process(matterResult.content);
+    const contentHtml = processedContent.toString();
 
-  // Combine the data with the id and contentHtml
-  return {
-    slug,
-    contentHtml,
-    title: matterResult.data.title,
-    description: matterResult.data.description,
-    date: matterResult.data.date,
-    // ... any other fields you want to include
-  };
+    // 将数据与 slug 和 contentHtml 组合
+    return {
+      slug,
+      contentHtml,
+      ...matterResult.data
+    };
+  } catch (error) {
+    console.error(`Error processing post ${slug}:`, error);
+    throw error;
+  }
 }
 
 export async function getPostData2(id) {

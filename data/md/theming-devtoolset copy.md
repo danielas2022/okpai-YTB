@@ -1,3 +1,9 @@
+---
+title: "Meet the Replit Zigma - A Revolutionary AI-Powered Programming Assistant"
+description: "An in-depth review of Replit Agent, exploring its features, advantages, and potential impact on the programming industry"
+date: '2024-08-14T13:14:40.737Z'
+---
+
 根据您的要求，我将总结Zigma产品并为YouTube视频生成解说。
 
 ## Zigma产品总结
